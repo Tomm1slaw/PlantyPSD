@@ -1,0 +1,40 @@
+.jumbotron {
+   justify-content: flex-start;
+}
+
+.cta-image {
+   flex-basis: 50%;
+   border: 3px solid #b7dbc8;
+   position: relative;
+   &--plant {
+      position: relative;
+      right: 15px;
+      top: -20px;
+      z-index: -1;
+   }
+   &--phone {
+      position: absolute;
+      bottom: 20px;
+      max-width: 400px;
+      bottom: -120px;
+      right: 0;
+   }
+}
+
+.cta-content {
+   display: flex;
+   flex-direction: column;
+   align-self: flex-end;
+   margin-left: 20px;
+   flex-basis: 40%;
+   h4 {
+      left: -20px;
+      text-align: center;
+      position: relative;
+      top: -40px;
+   }
+   p {
+      margin: 0 0 80px;
+      font-size: 18px;
+   }
+}

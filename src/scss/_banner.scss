@@ -1,0 +1,13 @@
+.banner {
+   max-height: 400px;
+   position: relative;
+   i {
+      position: absolute;
+      right: 140px;
+      bottom: 60px;
+      font-family: $play;
+      font-size: 40px;
+      max-width: 400px;
+      color: $white;
+   }
+}

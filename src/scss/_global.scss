@@ -1,0 +1,42 @@
+// better box-sizing
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+body {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0;
+   font-family: $muli;
+   color: $black;
+}
+
+// responsive image
+img {
+   width: 100%;
+   height: auto;
+}
+
+.container {
+   padding-left: 60px;
+   padding-right: 60px;
+   margin: 0 auto;
+   display: flex;
+}
+
+section {
+   padding: 35px 0;
+}
+
+// button
+.btn {
+   width: 100%;
+   background: $green;
+   color: $white;
+   text-transform: uppercase;
+   text-align: center;
+   padding: 20px 10px;
+   border: none;
+}

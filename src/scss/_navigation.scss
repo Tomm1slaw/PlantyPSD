@@ -1,0 +1,18 @@
+nav {
+   padding: 20px 0;
+   justify-content: center;
+   ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      li {
+         display: inline;
+         a {
+            text-decoration: none;
+            font-family: $play;
+            color: $black;
+            margin: 0 50px;
+         }
+      }
+   }
+}

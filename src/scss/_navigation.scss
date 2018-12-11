@@ -14,6 +14,11 @@ nav {
       margin: 0;
       li {
          display: inline;
+         padding: 5px;
+         transition: 1s all ease;
+         &:hover {
+            background: $green;
+         }
          a {
             text-decoration: none;
             font-family: $play;

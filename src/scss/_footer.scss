@@ -1,0 +1,25 @@
+footer {
+   background: $green;
+   color: $white;
+   padding: 15px 0;
+}
+
+.page-footer {
+   justify-content: space-evenly;
+   p {
+      flex-basis: 45%;
+   }
+}
+
+.social-media {
+   flex-basis: 45%;
+   text-align: right;
+   align-self: center;
+   ion-icon {
+      font-size: 20px;
+      padding: 9px;
+      border-radius: 50%;
+      border: 3px solid;
+      margin-left: 10px;
+   }
+}

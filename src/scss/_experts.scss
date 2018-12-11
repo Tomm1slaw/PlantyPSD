@@ -15,10 +15,12 @@
    border: 3px solid #b7dbc8;
    flex-basis: 45%;
    display: flex;
+   // item to bottom
    &--relative {
       position: relative;
       top: 120px;
    }
+   // image
    img {
       max-width: 141px;
       max-height: 141px;
@@ -28,6 +30,7 @@
       top: 50px;
       left: -70px;
    }
+   // description
    &__text {
       max-width: 240px;
       h3 {

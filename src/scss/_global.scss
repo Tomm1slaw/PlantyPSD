@@ -42,9 +42,20 @@ section {
    cursor: pointer;
 }
 
+a:hover,
+.btn:hover {
+   opacity: 0.8;
+}
+
 // form
 input,
 textarea {
    width: 100%;
    border: 2px solid $black;
+}
+
+@media screen and (max-width: 990px) {
+   section {
+      padding: 20px 0;
+   }
 }

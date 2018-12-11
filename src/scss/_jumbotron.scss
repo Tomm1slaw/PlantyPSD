@@ -38,3 +38,34 @@
       font-size: 18px;
    }
 }
+
+@media screen and (max-width: 990px) {
+   .jumbotron {
+      flex-direction: column;
+   }
+   .cta-image {
+      max-height: 40vh;
+      overflow: hidden;
+      margin-bottom: 20px;
+      &--plant {
+         right: 0;
+         top: 0;
+      }
+      &--phone {
+         height: 100%;
+         left: 0;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         margin: auto;
+      }
+   }
+
+   .cta-content {
+      margin: 0;
+      h4 {
+         left: 0;
+         top: -15px;
+      }
+   }
+}

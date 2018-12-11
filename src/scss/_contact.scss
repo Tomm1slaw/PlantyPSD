@@ -10,6 +10,8 @@
 .contact-content {
    display: flex;
    justify-content: space-evenly;
+   max-height: 550px;
+   overflow: hidden;
    // form
    &__form {
       flex-basis: 45%;
@@ -41,6 +43,20 @@
          top: 15px;
          left: 15px;
          z-index: -1;
+      }
+   }
+}
+
+@media screen and (max-width: 990px) {
+   .contact-content {
+      flex-direction: column;
+      &__image {
+         max-height: 400px;
+         overflow: hidden;
+         margin-top: 30px;
+         img {
+            position: static;
+         }
       }
    }
 }

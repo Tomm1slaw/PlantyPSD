@@ -11,3 +11,18 @@
       color: $white;
    }
 }
+
+@media screen and (max-width: 990px) {
+   .banner i {
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .banner i {
+      font-size: 30px;
+      text-align: center;
+   }
+}

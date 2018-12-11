@@ -39,4 +39,12 @@ section {
    text-align: center;
    padding: 20px 10px;
    border: none;
+   cursor: pointer;
+}
+
+// form
+input,
+textarea {
+   width: 100%;
+   border: 2px solid $black;
 }
